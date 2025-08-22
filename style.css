@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(230, 55, 55);
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    display: flex;
+}
+.img{
+    border-radius: 50%;
+    height: 250px;
+}
+.userFollow{
+    width: 70%;
+    display: flex;;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.follower{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.userDetail{
+    text-align: center;
+}
+.repo{
+    font-size: 1.5em;
+    text-align: center;
+}
+.second{
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid black;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 40px;
+}
+.btn{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 70px;
+    height: 25px;
+    border: none;
+    transition: 0.3s;
+}
+.btn:hover{
+    color: red;
+    width: 90px;
+    background-color: #333;
+}
+.username{
+    border-radius: 10px;
+    height: 25px;
+    border: 1px solid black;
+    width: 200px;
+    padding: 5px;
+}
+.userBio{
+    font-size:medium;
+}
+.userName{
+    font-size: 2.2rem;
+}
+.stats-container {
+    text-align: center;  /* center everything */
+    margin-top: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: larger;
+     /* space before button */
+}
+
+.stats p {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-size: larger;
+    padding: 8px;
+}
+
+.viewProfile {
+    background-color: black;
+    width: 80%;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;   /* center button */
+    transition: 0.3s;
+}
+
+.viewProfile:hover {
+    background-color: #333;
+    color: red;
+}
